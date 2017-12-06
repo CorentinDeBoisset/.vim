@@ -1,0 +1,33 @@
+[submodule "pack/myplugins/start/ale"]
+	path = pack/myplugins/start/ale
+	url = https://github.com/w0rp/ale.git
+[submodule "pack/myplugins/start/ctrlp.vim"]
+	path = pack/myplugins/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "pack/myplugins/start/indentline"]
+	path = pack/myplugins/start/indentline
+	url = https://github.com/yggdroot/indentline
+[submodule "pack/myplugins/start/nerdcommenter"]
+	path = pack/myplugins/start/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "pack/myplugins/start/vim-airline"]
+	path = pack/myplugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/myplugins/start/vim-bufferline"]
+	path = pack/myplugins/start/vim-bufferline
+	url = https://github.com/bling/vim-bufferline.git
+[submodule "pack/myplugins/start/vim-colorschemes"]
+	path = pack/myplugins/start/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes
+[submodule "pack/myplugins/start/vim-fugitive"]
+	path = pack/myplugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/myplugins/start/vim-gitgutter"]
+	path = pack/myplugins/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "pack/myplugins/start/vim-polyglot"]
+	path = pack/myplugins/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule "pack/myplugins/start/vim-surround"]
+	path = pack/myplugins/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
