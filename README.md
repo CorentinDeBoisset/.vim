@@ -11,5 +11,5 @@ To install this configuration run:
 
 To update the plugins, that are saved as submodules, run:
 
-    for file in ~/.vim/pack/myplugins/start/*; do target="$HOME/.vim/pack/myplugins/start/$file"; cd "$target"; git pull; done; cd ~/.vim
+    for file in ~/.vim/pack/myplugins/start/*; do cd "$file"; git pull; done; cd ~/.vim
 
