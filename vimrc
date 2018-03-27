@@ -1,4 +1,4 @@
-source ~/.vim/.vimrc.bepo
+source ~/.vim/bepo_vimrc
 
 
 set incsearch

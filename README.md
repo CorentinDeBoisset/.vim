@@ -7,7 +7,6 @@ To install this configuration run:
 
     cd ~
     git clone https://github.com/coreoas/.vim.git
-    ln -s .vimrc .vim/.vimrc
 
 To update the plugins, that are saved as submodules, run:
 
