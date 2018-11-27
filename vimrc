@@ -69,7 +69,6 @@ let g:ale_sign_column_always = 1
 let g:ale_sign_error = "✗"
 let g:ale_sign_warning = "⚠"
 let g:airline#extensions#ale#enabled = 1
-let g:ale_php_phpcs_standard = 'Symfony'
 
 let g:NERDSpaceDelims = 1
 let g:NERDCommentEmptyLines = 1
