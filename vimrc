@@ -1,3 +1,6 @@
+scriptencoding utf-8
+set encoding=utf-8
+
 source ~/.vim/bepo_vimrc
 
 " cursor switch to vertical line when in insert mode
