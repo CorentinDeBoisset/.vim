@@ -31,3 +31,6 @@
 [submodule "pack/myplugins/start/vim-surround"]
 	path = pack/myplugins/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "pack/myplugins/start/vim-dirvish"]
+	path = pack/myplugins/start/vim-dirvish
+	url = https://github.com/justinmk/vim-dirvish.git
