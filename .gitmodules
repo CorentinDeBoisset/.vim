@@ -34,3 +34,6 @@
 [submodule "pack/myplugins/start/vim-dirvish"]
 	path = pack/myplugins/start/vim-dirvish
 	url = https://github.com/justinmk/vim-dirvish.git
+[submodule "pack/myplugins/start/vim-eunuch"]
+	path = pack/myplugins/start/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch.git

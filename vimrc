@@ -77,20 +77,23 @@ let g:NERDSpaceDelims = 1
 let g:NERDCommentEmptyLines = 1
 let g:NERDTrimTrailingWhitespace = 1
 
-let g:surround_no_mappings = 1
-nmap ds <Plug>Dsurround
-nmap ls <Plug>Csurround
-nmap lS <Plus>CSurround
-nmap ys  <Plug>Ysurround
-nmap yS  <Plug>YSurround
-nmap yss <Plug>Yssurround
-nmap ySs <Plug>YSsurround
-nmap ySS <Plug>YSsurround
-xmap S   <Plug>VSurround
-xmap gS <Plug>VgSurround
+" let g:surround_no_mappings = 1
+" nmap ds <Plug>Dsurround
+" nmap ls <Plug>Csurround
+" nmap lS <Plus>CSurround
+" nmap ys  <Plug>Ysurround
+" nmap yS  <Plug>YSurround
+" nmap yss <Plug>Yssurround
+" nmap ySs <Plug>YSsurround
+" nmap ySS <Plug>YSsurround
+" xmap S   <Plug>VSurround
+" xmap gS <Plug>VgSurround
 
 " make vue syntax faster
 let g:vue_disable_pre_processors=1
+
+" Setup vim-dirvish
+let g:dirvish_mode = ':sort ,^.*[\/],'
 
 " fix syntax highlighting errors
 noremap <F12> <Esc>:syntax sync fromstart<CR>

@@ -86,3 +86,11 @@ noremap w<CR> :vsplit<CR>
 noremap gr :bn<CR>
 noremap gc :bp<CR>
 noremap gd :bd<CR>
+
+" Map Dirvish commands
+" --------------------
+augroup dirvish_config
+  autocmd!
+  " autocmd FileType dirvish mapclear <buffer>
+  autocmd FileType dirvish nmap <silent><buffer> j <Plug>(dirvish_up)
+augroup END
