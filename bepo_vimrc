@@ -45,7 +45,7 @@ noremap K S
 " Corollaire : correction orthographique
 noremap ]k ]s
 noremap [k [s
- 
+
 " Désambiguation de {g}
 " —————————————————————
 " ligne écran précédente / suivante (à l'intérieur d'une phrase)
@@ -71,8 +71,12 @@ noremap wt <C-w>j
 noremap ws <C-w>k
 noremap wc <C-w>h
 noremap wr <C-w>l
+noremap wT <C-w>J
+noremap wS <C-w>K
+noremap wC <C-w>H
+noremap wR <C-w>L
 noremap wd <C-w>c
-noremap wo <C-w>s
+noremap wo :split<CR>
 noremap wp <C-w>o
 noremap w<SPACE> :split<CR>
 noremap w<CR> :vsplit<CR>
