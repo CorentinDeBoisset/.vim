@@ -77,17 +77,7 @@ let g:NERDSpaceDelims = 1
 let g:NERDCommentEmptyLines = 1
 let g:NERDTrimTrailingWhitespace = 1
 
-" let g:surround_no_mappings = 1
-" nmap ds <Plug>Dsurround
-" nmap ls <Plug>Csurround
-" nmap lS <Plus>CSurround
-" nmap ys  <Plug>Ysurround
-" nmap yS  <Plug>YSurround
-" nmap yss <Plug>Yssurround
-" nmap ySs <Plug>YSsurround
-" nmap ySS <Plug>YSsurround
-" xmap S   <Plug>VSurround
-" xmap gS <Plug>VgSurround
+let g:surround_no_mappings = 1
 
 " make vue syntax faster
 let g:vue_disable_pre_processors=1
@@ -104,4 +94,4 @@ au BufEnter *.vue syn sync fromstart
 autocmd FileType c,cpp,java,php,javascript,vue,yaml,json,python,less,css autocmd BufWritePre <buffer> %s/\s\+$//e
 
 " set specific tab size
-autocmd FileType php,yaml,python,css,less setlocal shiftwidth=4 tabstop=4
+autocmd FileType php,yaml,python,css,less,xml,html,xml.twig,html.twig setlocal shiftwidth=4 tabstop=4
