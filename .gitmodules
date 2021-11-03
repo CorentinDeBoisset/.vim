@@ -37,3 +37,6 @@
 [submodule "pack/myplugins/start/awesome-vim-colorschemes"]
 	path = pack/myplugins/start/awesome-vim-colorschemes
 	url = https://github.com/rafi/awesome-vim-colorschemes.git
+[submodule "pack/myplugins/start/vim-go"]
+	path = pack/myplugins/start/vim-go
+	url = https://github.com/fatih/vim-go.git
