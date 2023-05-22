@@ -1,7 +1,6 @@
 # Vim configuration
 
-This configuration is intended for BÉPO users. 
-If you do not want to use the customizations, feel free to comment out the `source ~/.vim/.vimrc.bepo` line from the `.vimrc` file.
+This configuration can be customized for BÉPO users, by setting a non-empty value to the enviroment variable `VIM_BEPO`
 
 To install this configuration run:
 
