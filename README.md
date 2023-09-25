@@ -9,5 +9,4 @@ To install this configuration run:
 
 To update the plugins, that are saved as submodules, run:
 
-    git submodule foreach git pull --ff-only origin master
-
+    git submodule update --remote
