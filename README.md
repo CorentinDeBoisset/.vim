@@ -5,7 +5,7 @@ This configuration can be customized for BÉPO users, by setting a non-empty val
 To install this configuration run:
 
     cd ~
-    git clone https://github.com/coreoas/.vim.git
+    git clone https://github.com/CorentinDeBoisset/.vim.git
 
 To update the plugins, that are saved as submodules, run:
 
